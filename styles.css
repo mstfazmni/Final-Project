@@ -6,6 +6,46 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.col-md-4{
+    background-color: #343a40;
+}
+
+.singup-header-a,
+.singup-header-p{
+    color: white;
+}
+
+.input-header-1,
+.input-header-2{
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.login-butt-header{
+    border-radius: 5px;
+    padding: 6px 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: 	rgb(112,112,112);
+    color: white;
+}
+
+.login-butt-header:hover{
+    background-color: white;
+    color: rgb(112,112,112);
+}
+
+.number-header,
+.email-header{
+    text-decoration: none;
+}
+.Home-icon{
+    width: 20px;
+    margin-right: 3px;
+    
+}
+
 .row{
   padding: 3em;
   width: 100%;

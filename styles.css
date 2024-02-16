@@ -46,3 +46,54 @@
     background-color: #343a40;
 }
 
+
+
+
+.iconCont{
+    display: flex;
+    justify-content: space-between;
+}
+.icon2{
+    height: 10em;
+    display: flex;
+    align-items: end;
+}
+
+
+footer {
+    background-color: black;
+}
+
+#aboutInfo{
+    border-bottom: solid 2px white;
+}
+#aboutHead{
+    color: #fcc200;
+}
+#aboutText{
+    color:white;
+}
+
+
+
+#popularSearches{
+    color:#fcc200;
+    padding-top: 10px;
+
+}
+#popularSearchesUl{
+    list-style: none;
+    padding-left: 0;
+}
+#searches1, #searches2, #searches3, #searches4,#searches5{
+    color: white;
+    text-decoration: none;
+}
+
+#searches1:hover, #searches2:hover, #searches3:hover, #searches4:hover,#searches5:hover{
+    color: yellow;
+}
+
+
+
+

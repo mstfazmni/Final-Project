@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-*{
-  font-family: 'Poppins', sans-serif;
-}
-
 .col-md-4{
     background-color: #343a40;
 }
@@ -46,94 +38,116 @@
     
 }
 
+
 .row{
-  padding: 3em;
-  width: 100%;
-}
-.provContain{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.province{
-  margin-right: 2em;
-  cursor: pointer;
-}
-
-.card-img-top image{
-  transition: .5s ease;
-}
-.card-img-top image:hover{
-  width: 30em;
-  height: 20em;
-}
-.card-img-top:hover text{
-  fill: black;
-  display: block;
-  opacity: 1;
-}
-.card-img-top text{
-  opacity: 0;
-  font-size: 20px;
-  transition: .5s ease;
-}
-.provBody{
-  background-color: #55595c;
-  color: white;
-}
-
-.col-md-4{
-    background-color: #343a40;
-}
-
-
-
-
-.iconCont{
+    padding: 3em;
+    width: 100%;
+  }
+  .provContain{
     display: flex;
-    justify-content: space-between;
-}
-.icon2{
-    height: 10em;
-    display: flex;
-    align-items: end;
-}
-
-
-footer {
-    background-color: black;
-}
-
-#aboutInfo{
-    border-bottom: solid 2px white;
-}
-#aboutHead{
-    color: #fcc200;
-}
-#aboutText{
-    color:white;
-}
-
-
-
-#popularSearches{
-    color:#fcc200;
-    padding-top: 10px;
-
-}
-#popularSearchesUl{
-    list-style: none;
-    padding-left: 0;
-}
-#searches1, #searches2, #searches3, #searches4,#searches5{
+    justify-content: center;
+    align-items: center;
+  }
+  .province{
+    margin-right: 2em;
+    cursor: pointer;
+  }
+  
+  .new-card image{
+    transition: .5s ease;
+  }
+  .new-card image:hover{
+    width: 30em;
+    height: 20em;
+  }
+  .new-card:hover text{
+    fill: black;
+    display: block;
+    opacity: 1;
+  }
+  .new-card text{
+    opacity: 0;
+    font-size: 20px;
+    transition: .5s ease;
+  }
+  .provBody{
+    background-color: #55595c;
     color: white;
-    text-decoration: none;
+  }
+  
+  .col-md-4{
+      background-color: #343a40;
+  }
+  
+  
+  
+  
+  .iconCont{
+      display: flex;
+      justify-content: space-between;
+  }
+  .icon2{
+      height: 10em;
+      display: flex;
+      align-items: end;
+  }
+  
+  
+  footer {
+      background-color: #212529;
+  }
+  
+  #aboutInfo{
+      border-bottom: solid 2px white;
+  }
+  #aboutHead{
+      color: rgb(28, 115, 168);
+  }
+  #aboutText{
+      color:white;
+  }
+  
+  
+  
+  #popularSearches{
+      color:rgb(28, 115, 168);
+      padding-top: 10px;
+      margin-bottom: 25px;
+  }
+  #popularSearchesUl{
+      list-style: none;
+      padding-left: 0;
+      
+  }
+  #searches1, #searches2, #searches3, #searches4,#searches5{
+      color: white;
+      text-decoration: none;
+      background-color: #6c6f711f;
+      padding: 10px;
+      border-radius: 5px;
+  }
+  
+  #searches1:hover, #searches2:hover, #searches3:hover, #searches4:hover,#searches5:hover{
+      color: rgb(28, 115, 168);
+      
+  }
+
+
+  #city-div{
+    text-align: center;
+  }
+  
+.card-img-city{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }
 
-#searches1:hover, #searches2:hover, #searches3:hover, #searches4:hover,#searches5:hover{
-    color: yellow;
+.a-city{
+  text-decoration: none;
+  color: black;
 }
 
-
-
-
+.a-city:hover{
+  color: #5a5c5e;
+}

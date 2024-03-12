@@ -1,0 +1,89 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.form-section {
+  /* border: 2px solid gray; */
+  border-radius: 5px;
+  text-align: left;
+  padding: 40px 30px;
+  background-color: rgba(192, 191, 202, 0.385);
+  display: flex;
+  flex-direction: column;
+  
+}
+.h1-form {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#rentspace{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#properties_dropdown{
+  padding: 6px;
+}
+
+#rentspace_licence{
+  display: flex;
+  gap: 20px;
+  
+}
+#license{
+  display: flex;
+  align-items: end;
+}
+#license input{
+  padding: 6px;
+}
+
+#image_upload{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#image_upload input{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#address{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+#address input{
+  padding: 6px;
+}
+
+.signup-butt-form {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: rgb(112, 112, 112);
+  color: white;
+}
+
+.Home-icon{
+  width: 20px;
+  margin-right: 3px;
+  
+}
+

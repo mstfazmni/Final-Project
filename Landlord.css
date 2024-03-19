@@ -1,3 +1,7 @@
+header{
+    background-color: #212529;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -87,3 +91,66 @@ form{
   
 }
 
+
+.iconCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon2 {
+    height: 4em;
+}
+#icon{
+    float: right;
+}
+
+footer {
+    background-color: #212529;
+}
+
+#aboutInfo {
+    border-bottom: solid 2px white;
+}
+
+#aboutHead {
+    color: rgb(28, 115, 168);
+}
+
+#aboutText {
+    color: white;
+}
+
+
+
+#popularSearches {
+    color: rgb(28, 115, 168);
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+#popularSearchesUl {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+#searches1,
+#searches2,
+#searches3,
+#searches4,
+#searches5 {
+    color: white;
+    text-decoration: none;
+    background-color: #6c6f711f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#searches1:hover,
+#searches2:hover,
+#searches3:hover,
+#searches4:hover,
+#searches5:hover {
+    color: rgb(28, 115, 168);
+
+}

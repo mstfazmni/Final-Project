@@ -133,21 +133,75 @@
   }
 
 
-  #city-div{
-    text-align: center;
-  }
-  
-.card-img-city{
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
+#city-div {
+  text-align: center;
 }
 
-.a-city{
+.card-img-city {
+  width: 364px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.a-city {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.a-city:hover{
-  color: #5a5c5e;
+.a-city:hover {
+  color: rgb(28, 115, 168);
+}
+
+.col.city-card {
+  margin: 20px;
+  background-color: #55595c;
+  height: fit-content;
+  width: fit-content;
+  flex: 0.5 0 0%;;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.card-body{
+  padding-bottom: 0px; 
+}
+
+#city-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.my-container1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row .my-container1 {
+  width: fit-content;
+  height: 300px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.my-container2 {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.row .my-container2 {
+  width: fit-content;
+  height: 260px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 0;
 }

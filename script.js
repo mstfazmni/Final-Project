@@ -6,15 +6,18 @@ function ShowingCity() {
     // Get the reference to the city-div element only once outside the loop
     let cityVar = document.getElementById("city-div");
 
-    if(!boxesGenerated){
-    // Create a container div to hold all the city cards
-        let containerDiv = document.createElement("div");
-        containerDiv.className = "row";
+    if (!boxesGenerated) {
+        // Create a container div to hold all the city cards
+        let containerDiv1 = document.createElement("div");
+        containerDiv1.className = "row my-container1";
+
+        let containerDiv2 = document.createElement("div");
+        containerDiv2.className = "row my-container2";
 
         for (let i = 0; i < city.length; i++) {
             // Create a new div for each city and append it to containerDiv
             let cityDiv = document.createElement("div");
-            cityDiv.className = "col";
+            cityDiv.className = "col city-card"; // Add a specific class for styling
             cityDiv.innerHTML = `
                 <a href="property.html" target="_blank" class="a-city">
                 <img src="${cityLinks[i]}" class="card-img-city" alt="${city[i]}">
@@ -23,13 +26,21 @@ function ShowingCity() {
                 </div>
                 </a>
             `;
-            // alert(cityLinks[i]);
 
             // Append the new cityDiv to containerDiv
-            containerDiv.appendChild(cityDiv);
+            if (i < city.length /2 ){
+                containerDiv1.appendChild(cityDiv);
+            }else {
+                containerDiv2.appendChild(cityDiv);
+            }
+            
+            
+            //containerDiv.appendChild(cityDiv);
+
         }
-    // Append the containerDiv to cityVar
-    cityVar.appendChild(containerDiv);
-    boxesGenerated = true;
+        // Append the containerDiv to cityVar
+        cityVar.appendChild(containerDiv1);
+        cityVar.appendChild(containerDiv2);
+        boxesGenerated = true;
     }
 }

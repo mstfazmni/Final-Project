@@ -29,9 +29,9 @@ tenentEl.addEventListener('change', () => {
 
 signupBtn.addEventListener("click", ()=>{
   if(landlord == true){
-    window.location.href = '/project/landlord.html';
+    window.location.href = 'landlord.html';
   }
   else if(tenent == true){
-    window.location.href = '/project/index.html'
+    window.location.href = 'index.html'
   }
 })

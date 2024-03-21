@@ -27,7 +27,6 @@
     <!-- <h1 class="signup-h1">sign up page</h1> -->
 
     <section class="form-section">
-
         <h1 class="h1-form">Create your account</h1>
         <form>
             <input class="First-name-form" type="text" placeholder="First name">
@@ -42,13 +41,13 @@
             <br>
             <div class="radio-div">
                 <p>Please select one of the following options:</p>
-                <input type="radio" name="user-type">
+                <input type="radio" name="user-type" id="landlord" value="landlord">
                 <label>Landlord</label><br>
-                <input type="radio" name="user-type">
-                <label>tanant</label><br>
+                <input type="radio" name="user-type" id="tenent" value="tenent">
+                <label>tenent</label><br>
             </div>
             <br>
-            <button class="signup-butt-form">Sign Up</button>
+            <button class="signup-butt-form" id="signUpBtn">Sign Up</button>
         </form>
 
     </section>
@@ -83,10 +82,9 @@
         </div>
         </div>
     </footer>
-
+    <script src="signup.js"></script>
 </body>
 </html>
-
 
 
 

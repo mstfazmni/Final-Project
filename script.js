@@ -3,6 +3,7 @@ const cityLinks = ["calgary.jpg", "edmonton.jpg", "red deer.jpg", "canmore.jpg"]
 let boxesGenerated = false;
 
 function ShowingCity() {
+
     // Get the reference to the city-div element only once outside the loop
     let cityVar = document.getElementById("city-div");
 
@@ -19,7 +20,7 @@ function ShowingCity() {
             let cityDiv = document.createElement("div");
             cityDiv.className = "col city-card"; // Add a specific class for styling
             cityDiv.innerHTML = `
-                <a href="property.html" target="_blank" class="a-city">
+                <a href="property.html?city=${city[i]}" target="_blank" class="a-city">
                 <img src="${cityLinks[i]}" class="card-img-city" alt="${city[i]}">
                 <div class="card-body">
                     <h5 class="card-title">${city[i]}</h5>
@@ -42,5 +43,6 @@ function ShowingCity() {
         cityVar.appendChild(containerDiv1);
         cityVar.appendChild(containerDiv2);
         boxesGenerated = true;
+        
     }
 }

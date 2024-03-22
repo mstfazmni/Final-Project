@@ -900,7 +900,7 @@ const propertyListings = [
     if(property.location == city){
 
     document.getElementById("main-div").innerHTML += `
-      <div class="col">
+      <div class="col cursor">
         <div class="card shadow-sm">
           <img src="${property.imageUrl}" class="bd-placeholder-img card-img-top" width="100%" height="225" aria-label="Property Image" alt="Property Image">
           <div class="card-body">

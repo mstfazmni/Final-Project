@@ -41,7 +41,7 @@ function ShowingCity(cities) {
         for (let i = 0; i < cities.length; i++) {
             // Create a new div for each city and append it to containerDiv
             let cityDiv = document.createElement("div");
-            cityDiv.className = "col city-card"; // Add a specific class for styling
+            cityDiv.className = "col city-card shadow-box"; // Add a specific class for styling
             cityDiv.innerHTML = `
                 <a href="property.html?city=${cities[i].name}" target="_blank" class="a-city">
                 <img src="${cities[i].image}" class="card-img-city" alt="${cities[i].name}">

@@ -430,7 +430,7 @@ const propertyListings = [
     },
     //Ottawa
     {
-        id: 44,
+        id: 43,
         title: "Executive Condo in Downtown Ottawa",
         location: "Ottawa",
         price: "$850,000",
@@ -440,7 +440,7 @@ const propertyListings = [
         imageUrl: "https://www.ctvnews.ca/content/dam/ctvnews/en/images/2023/1/14/rockcliffe-park-1-6231295-1673744157846.png",
     },
     {
-        id: 45,
+        id: 44,
         title: "Charming Victorian Home in Centretown",
         location: "Ottawa",
         price: "$1,200,000",
@@ -450,7 +450,7 @@ const propertyListings = [
         imageUrl: "https://www.movemeto.com/ontario/img/medium/real-estate.jpg",
     },
     {
-        id: 46,
+        id: 45,
         title: "Riverside Cottage in Ottawa River",
         location: "Ottawa",
         price: "$950,000",
@@ -460,7 +460,7 @@ const propertyListings = [
         imageUrl: "https://www.upfrontottawa.com/wp-content/uploads/2016/07/06-1-5812-Red-Castle-Ridge-OsgodeRideau-Ottawa-outside.jpg",
     },
     {
-        id: 47,
+        id: 46,
         title: "Family-Friendly Home in Barrhaven",
         location: "Ottawa",
         price: "$600,000",
@@ -470,7 +470,7 @@ const propertyListings = [
         imageUrl: "https://www.movemeto.com/ontario/img/medium/single-family-homes-for-sale.jpg",
     },
     {
-        id: 48,
+        id: 47,
         title: "Modern Loft in ByWard Market",
         location: "Ottawa",
         price: "$700,000",
@@ -480,7 +480,7 @@ const propertyListings = [
         imageUrl: "https://photos.zillowstatic.com/fp/9feb87d1281a9abf39fc82ba428d681f-p_e.jpg",
     },
     {
-        id: 49,
+        id: 48,
         title: "Luxury Estate in Rockcliffe Park",
         location: "Ottawa",
         price: "$2,500,000",
@@ -491,7 +491,7 @@ const propertyListings = [
     },
     //Hamilton
     {
-        id: 51,
+        id: 49,
         title: "Modern Condo in Downtown Hamilton",
         location: "Hamilton",
         price: "$500,000",
@@ -501,7 +501,7 @@ const propertyListings = [
         imageUrl: "https://assets.hgtv.ca/wp-content/uploads/2021/12/Exterior-2-scaled.jpg",
     },
     {
-        id: 52,
+        id: 50,
         title: "Victorian Home in Kirkendall",
         location: "Hamilton",
         price: "$800,000",
@@ -511,7 +511,7 @@ const propertyListings = [
         imageUrl: "https://www.point2homes.com/news/wp-content/uploads/sites/51/2016/02/403-Queens-Street-Hamilton.jpg",
     },
     {
-        id: 53,
+        id: 51,
         title: "Riverside Cottage near Dundas",
         location: "Hamilton",
         price: "$650,000",
@@ -521,7 +521,7 @@ const propertyListings = [
         imageUrl: "https://www.insauga.com/wp-content/uploads/2021/08/Maplemain.jpg",
     },
     {
-        id: 54,
+        id: 52,
         title: "Family-Friendly Home in Ancaster",
         location: "Hamilton",
         price: "$700,000",
@@ -531,7 +531,7 @@ const propertyListings = [
         imageUrl: "https://img.jamesedition.com/listing_images/2023/12/12/12/48/24/347b811a-4351-4618-8bcf-7e46fff76a22/je/507x312xc.jpg",
     },
     {
-        id: 55,
+        id: 53,
         title: "Loft Conversion in James Street North",
         location: "Hamilton",
         price: "$450,000",
@@ -541,7 +541,7 @@ const propertyListings = [
         imageUrl: "https://www.theglobeandmail.com/resizer/5zx8vHMfVmFuezlnzdSpWZFudjg=/arc-anglerfish-tgam-prod-tgam/public/LUMRMCBYOJEGVKOYTHR4RTH4NY.JPG",
     },
     {
-        id: 56,
+        id: 54,
         title: "Country Estate in Flamborough",
         location: "Hamilton",
         price: "$1,200,000",
@@ -552,7 +552,7 @@ const propertyListings = [
     },
     //Vancouver
     {
-        id: 58,
+        id: 55,
         title: "Luxury Condo in Downtown Vancouver",
         location: "Vancouver",
         price: "$1,200,000",
@@ -562,7 +562,7 @@ const propertyListings = [
         imageUrl: "https://photos.zillowstatic.com/fp/b3343d29f8e2499524c090ac1f4dddbd-p_e.jpg",
     },
     {
-        id: 59,
+        id: 56,
         title: "Heritage Home in Kitsilano",
         location: "Vancouver",
         price: "$1,800,000",
@@ -572,7 +572,7 @@ const propertyListings = [
         imageUrl: "https://www.engelvoelkers.com/images/5c277e0a-b5d0-405f-af26-f8775784c939/single-family-in-north-vancouver-british-columbia?w=576&h=432",
     },
     {
-        id: 60,
+        id: 57,
         title: "Waterfront Penthouse in Coal Harbour",
         location: "Vancouver",
         price: "$3,500,000",
@@ -582,7 +582,7 @@ const propertyListings = [
         imageUrl: "https://www.vmcdn.ca/f/files/via/import/2018/11/07071159_luxury_home_vancouver.jpg;w=960",
     },
     {
-        id: 61,
+        id: 58,
         title: "Family-Friendly Home in East Vancouver",
         location: "Vancouver",
         price: "$900,000",
@@ -592,7 +592,7 @@ const propertyListings = [
         imageUrl: "https://drkdesign.files.wordpress.com/2021/07/r2599074_3.jpg",
     },
     {
-        id: 62,
+        id: 59,
         title: "Modern Loft in Yaletown",
         location: "Vancouver",
         price: "$1,000,000",
@@ -602,7 +602,7 @@ const propertyListings = [
         imageUrl: "https://www.northshorerealty.ca/uploads/gb3.jpg",
     },
     {
-        id: 63,
+        id: 60,
         title: "Luxury Estate in Shaughnessy",
         location: "Vancouver",
         price: "$8,000,000",
@@ -613,7 +613,7 @@ const propertyListings = [
     },
     //Victoria
     {
-        id: 65,
+        id: 61,
         title: "Luxury Condo in Downtown Victoria",
         location: "Victoria",
         price: "$900,000",
@@ -623,7 +623,7 @@ const propertyListings = [
         imageUrl: "https://darrendayrealestate.com/_media/Images/01-exterior-605-wide.jpg",
     },
     {
-        id: 68,
+        id: 62,
         title: "Heritage Home in James Bay",
         location: "Victoria",
         price: "$1,500,000",
@@ -633,7 +633,7 @@ const propertyListings = [
         imageUrl: "https://u.realgeeks.media/homeinvictoria/realtor-victoria-bc-main-image-hvic.png",
     },
     {
-        id: 69,
+        id: 63,
         title: "Waterfront Estate in Oak Bay",
         location: "Victoria",
         price: "$5,000,000",
@@ -643,7 +643,7 @@ const propertyListings = [
         imageUrl: "https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1008i215%2Fmebe03d5zn3dmnpg22ycsfn362i215&option=N&h=472&permitphotoenlargement=false",
     },
     {
-        id: 70,
+        id: 64,
         title: "Family-Friendly Home in Saanich",
         location: "Victoria",
         price: "$800,000",
@@ -653,7 +653,7 @@ const propertyListings = [
         imageUrl: "https://www.clippervacations.com/magazine/wp-content/uploads/sites/10/2018/08/Wesley-Brandon-Rosenblum_CROP.jpg",
     },
     {
-        id: 71,
+        id: 65,
         title: "Modern Loft in Fernwood",
         location: "Victoria",
         price: "$700,000",
@@ -663,7 +663,7 @@ const propertyListings = [
         imageUrl: "https://www.thepinnaclelist.com/wp-content/uploads/2017/04/01-Armada-House-Residence-Arbutus-Rd-Victoria-BC-Canada.jpg",
     },
     {
-        id: 72,
+        id: 66,
         title: "Seaside Cottage in Esquimalt",
         location: "Victoria",
         price: "$1,200,000",
@@ -674,7 +674,7 @@ const propertyListings = [
     },
     //Surrey
     {
-        id: 74,
+        id: 67,
         title: "Modern Condo in Central Surrey",
         location: "Surrey",
         price: "$500,000",
@@ -684,7 +684,7 @@ const propertyListings = [
         imageUrl: "https://www.engelvoelkers.com/images/4926122e-0d74-489c-9cea-802025544c6b/single-family-in-surrey-british-columbia",
     },
     {
-        id: 75,
+        id: 68,
         title: "Family Home in Fleetwood",
         location: "Surrey",
         price: "$800,000",
@@ -694,7 +694,7 @@ const propertyListings = [
         imageUrl: "https://www.engelvoelkers.com/images/635c9b9f-b763-4dfe-bcff-707ec461889a/single-family-in-south-surrey-british-columbia",
     },
     {
-        id: 76,
+        id: 69,
         title: "Riverside Cottage near Fraser River",
         location: "Surrey",
         price: "$650,000",
@@ -704,7 +704,7 @@ const propertyListings = [
         imageUrl: "https://mediavault.point2.com/p2h/listing/d2aa/2db3/1d3e/dcd813fb73d1f5cc8c82/nwm_large.jpg",
     },
     {
-        id: 77,
+        id: 70,
         title: "Townhouse in Guildford",
         location: "Surrey",
         price: "$700,000",
@@ -714,7 +714,7 @@ const propertyListings = [
         imageUrl: "https://s1.rea.global/img/400x300-fit/realtor/ca/734777f3a0b7fe7a90ab2d22f81a11f9.jpg",
     },
     {
-        id: 78,
+        id: 71,
         title: "Modern Loft in City Centre",
         location: "Surrey",
         price: "$550,000",
@@ -724,7 +724,7 @@ const propertyListings = [
         imageUrl: "https://www.engelvoelkers.com/images/bf79d763-3d62-400e-bba6-cfd6098cb0a6/single-family-in-surrey-british-columbia",
     },
     {
-        id: 79,
+        id: 72,
         title: "Luxury Mansion in South Surrey",
         location: "Surrey",
         price: "$2,500,000",
@@ -735,7 +735,7 @@ const propertyListings = [
     },
     //Burnaby
     {
-        id: 81,
+        id: 73,
         title: "Modern Condo in Metrotown",
         location: "Burnaby",
         price: "$600,000",
@@ -745,7 +745,7 @@ const propertyListings = [
         imageUrl: "https://img.jamesedition.com/listing_images/2023/06/07/12/54/09/dc5d1e62-555f-49f5-91ef-6c6536c00ad5/je/760x470xc.jpg",
     },
     {
-        id: 82,
+        id: 74,
         title: "Family Home in Brentwood",
         location: "Burnaby",
         price: "$950,000",
@@ -755,7 +755,7 @@ const propertyListings = [
         imageUrl: "https://img.jamesedition.com/listing_images/2023/09/28/14/08/18/13e331c4-0839-404d-9492-46be48251425/je/1040x620xc.jpg",
     },
     {
-        id: 83,
+        id: 75,
         title: "Riverside Cottage near Deer Lake",
         location: "Burnaby",
         price: "$750,000",
@@ -765,7 +765,7 @@ const propertyListings = [
         imageUrl: "https://www.engelvoelkers.com/images/9aa7aca3-ea58-4978-96ef-8b231e43f486/single-family-in-burnaby-british-columbia",
     },
     {
-        id: 84,
+        id: 76,
         title: "Townhouse in Highgate",
         location: "Burnaby",
         price: "$700,000",
@@ -775,7 +775,7 @@ const propertyListings = [
         imageUrl: "https://img.jamesedition.com/listing_images/2023/11/23/15/37/42/b3da5492-fa7e-4230-bd38-0d36372c1055/je/760x470xc.jpg",
     },
     {
-        id: 85,
+        id: 77,
         title: "Modern Loft in Lougheed",
         location: "Burnaby",
         price: "$550,000",
@@ -785,7 +785,7 @@ const propertyListings = [
         imageUrl: "https://www.vmcdn.ca/f/files/burnabynow/images/burnabypoint2buckinghamheightsluxuryhomepalettecreative2023front.JPG;w=960;h=640;bgcolor=000000",
     },
     {
-        id: 86,
+        id: 78,
         title: "Luxury Mansion in Burnaby Mountain",
         location: "Burnaby",
         price: "$3,000,000",
@@ -834,4 +834,3 @@ for (let i = 0; i < propertyListings.length; i++) {
     `;
     }
 }
-

@@ -221,3 +221,35 @@ padding-bottom: 0;
 .cursor{
   cursor: pointer;
 }
+
+
+.row {
+  padding-top: 0;
+}
+
+#filters {
+  /* Your provided styling for the filters */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212529;
+}
+
+#filters label {
+  color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#categoryFilter {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+#filters button {
+  background-color: #707070;
+  color: white;
+  border: none;
+  padding-right: 5px;
+  margin-right: 10px;
+}
